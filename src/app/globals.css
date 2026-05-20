@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-purple: #5B2D8E;
+  --color-purple-dark: #3D1A6E;
+  --color-purple-deeper: #2A1052;
+  --color-purple-light: #7B4DAE;
+  --color-gold: #C5942A;
+  --color-gold-light: #E8B84A;
+  --color-gold-dark: #A67B1F;
+  --color-cream: #FFF8EE;
+  --color-dark: #1a1a2e;
+  --color-dark2: #16213e;
+  --font-family-heading: 'Playfair Display', serif;
+  --font-family-body: 'Poppins', sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-family-body);
+    overflow-x: hidden;
+  }
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { scrollbar-width: none; }
+
+/* Clip path for gallery images */
+.clip-ellipse {
+  clip-path: ellipse(50% 45% at 50% 50%);
+}
+
+/* Vertical text for floating buttons */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}

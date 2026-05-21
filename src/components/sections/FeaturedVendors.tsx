@@ -16,14 +16,14 @@ export default function FeaturedVendors() {
         </button>
 
         <div ref={scrollRef} className="flex gap-5 overflow-x-auto scrollbar-hide px-8">
-          {VENDORS.map((v, i) => (
+          {VENDORS.slice(0, 4).map((v, i) => (
             <div key={i} className="min-w-[350px] max-w-[350px] bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all shrink-0">
               {/* Image */}
-              <div className="w-full h-[220px] bg-gray-200 relative overflow-hidden">
-                <img src={v.image} alt={v.name} className="w-full h-full object-cover" />
+              <div className="w-full h-[220px] bg-white relative overflow-hidden p-3">
+                <img src={v.image} alt={v.name} className="w-full h-full object-cover rounded-sm" />
                 {v.badge && (
-                  <span className="absolute top-3 left-3 bg-purple text-white text-[11px] font-semibold px-3 py-1 rounded-full flex items-center gap-1.5">
-                    <i className="fas fa-crown text-gold text-[10px]" /> Oppvenuz Choice
+                  <span className="absolute top-3 left-3 bg-yellow-400 text-black text-[11px] font-semibold px-3 py-1 rounded-sm flex items-center gap-1.5">
+                    <i className="fas fa-crown text-yellow-600 text-[10px]" /> Oppvenuz Choice
                   </span>
                 )}
               </div>

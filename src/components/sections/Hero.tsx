@@ -15,17 +15,17 @@ export function HeroText() {
       <div className="max-w-[1200px] mx-auto px-5">
         {/* Search filters row — gradient bordered inputs */}
         <div className="flex items-center justify-center gap-4 mb-8">
-          <div className="relative rounded-full overflow-hidden p-[2px]" style={{ background: "linear-gradient(to right, #C5942A, #5B2D8E)" }}>
-            <select className="rounded-full px-5 py-2.5 text-sm text-gray-500 outline-none w-[220px] appearance-none bg-white cursor-pointer">
+          <div className="relative rounded-lg overflow-hidden p-[2px]" style={{ background: "linear-gradient(to right, #C5942A, #5B2D8E)" }}>
+            <select className="rounded-lg px-5 py-2.5 text-sm text-gray-500 outline-none w-[220px] appearance-none bg-white cursor-pointer">
               <option>Find Your Service</option>
             </select>
           </div>
-          <div className="relative rounded-full overflow-hidden p-[2px]" style={{ background: "linear-gradient(to right, #C5942A, #5B2D8E)" }}>
-            <select className="rounded-full px-5 py-2.5 text-sm text-gray-500 outline-none w-[220px] appearance-none bg-white cursor-pointer">
+          <div className="relative rounded-lg overflow-hidden p-[2px]" style={{ background: "linear-gradient(to right, #C5942A, #5B2D8E)" }}>
+            <select className="rounded-lg px-5 py-2.5 text-sm text-gray-500 outline-none w-[220px] appearance-none bg-white cursor-pointer">
               <option>Select Location</option>
             </select>
           </div>
-          <button className="text-white font-semibold px-6 py-2.5 rounded-full text-sm flex items-center gap-2 shadow-md" style={{ background: "linear-gradient(135deg, #C5942A, #5B2D8E)" }}>
+          <button className="text-white font-semibold px-6 py-2.5 rounded-lg text-sm flex items-center gap-2 shadow-md" style={{ background: "linear-gradient(135deg, #C5942A, #5B2D8E)" }}>
             Search <i className="fas fa-search" />
           </button>
         </div>

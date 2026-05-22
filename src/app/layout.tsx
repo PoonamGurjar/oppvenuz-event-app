@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TPO - Trusted. Reviewed. Recommended.",
+  title: "OPPVENUZ - Trusted. Reviewed. Recommended.",
   description: "India's most trusted wedding vendor marketplace. Find verified vendors, venues, photographers, caterers and more.",
 };
 

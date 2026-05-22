@@ -4,9 +4,7 @@ export default function UtilityBar() {
       <div className="max-w-[1400px] mx-auto px-4 flex items-center justify-between h-12">
         {/* Left: Logo + Lang + Location */}
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center bg-purple-dark">
-            <span className="text-[8px] font-extrabold text-gold leading-none">tpo</span>
-          </div>
+          <img src="/logo.png" alt="Oppvenuz Logo" className="w-10 h-10 rounded-full" />
           <div className="flex items-center gap-1 text-[11px]">
             <span className="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center text-[8px] font-bold">🌐</span>
             EN <i className="fas fa-chevron-down text-[8px] ml-0.5" />
